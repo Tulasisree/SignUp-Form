@@ -1,0 +1,131 @@
+body{
+    background: url("./mars6.jpg")no-repeat center center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover ;
+  
+}
+
+.headings{
+    padding:10px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+    color: rgb(238, 236, 145);
+}
+
+.container{
+    /*background-image: url("./mars3.jpg");*/
+    box-shadow: 10px 10px 50px #1d1c1c, 
+            -10px -10px 60px #464444;
+    height: 600px;
+    width :700px;
+    margin-top: 20px;
+    margin-right: 150px;
+    padding: 20px;
+    display:flex;
+}
+
+label{
+  color: rgba(44, 44, 43, 0.698);
+  font-family: 'Freckle Face', cursive;
+  font-size: 25px;
+}
+
+.input-section {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .icon {
+    padding: 10px;
+    background: rgba(185, 48, 29, 0.698);
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+
+  
+.input-ele {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+input:hover{
+  background-color: rgb(230, 177, 146);
+}
+
+input:focus{
+  border: solid 2px rgba(185, 48, 29, 0.698);
+}
+
+.btn{
+  width:100px;
+  background-color: rgba(185, 48, 29, 0.698);
+  outline: brown;
+  color: rgba(63, 44, 42, 0.698);
+  font-family: 'Freckle Face', cursive;
+  font-size: 25px;
+}
+
+.social-section{
+  margin-left: 60px;
+  margin-top: 80px;
+}
+
+.btn-g{
+  width:200px;
+}
+
+.btn-g:hover{
+  background-color: rgb(230, 177, 146);
+}
+
+.btn-font{
+  font-family: 'Freckle Face', cursive;
+  font-size:25px;
+  color:rgba(63, 44, 42, 0.698);
+  background-color: antiquewhite;
+}
+
+.vl {
+  border-left: 5px solid rgb(114, 107, 96);
+  height: 500px;
+  position: absolute;
+  margin-left: 350px;
+}
+
+.or {
+  position: absolute;
+  margin-left:330px;
+  margin-top:150px;
+  font-family: 'Freckle Face', cursive;
+  color:rgba(63, 44, 42, 0.698);
+  width: 40px;
+  height: 40px;
+  background: rgba(185, 156, 152, 0.698);
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+}
+
+/*.fname {
+    position: relative;
+}
+  
+.fname i{
+    position: absolute;
+    left: 15px;
+    top: 40px;
+    color: gray;
+}
+*/
+
+
