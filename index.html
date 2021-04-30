@@ -24,24 +24,25 @@
     </div>
     
     <div class="container"> 
-    <div>   
-        <form>
+    <div class="row">   
+        <div class="col-md-6">
+        <form onSubmit="validate()">
             <label for="fname">Enter your First name :</label>
             <div class="input-section"> 
             <i class="fas fa-user icon"></i>
-            <input class="input-ele" type="text" name="fname" placeholder="Enter First Name" ></input>
+            <input id="fname" class="input-ele" type="text" name="fname" placeholder="Enter First Name" required ></input>
             </div>
             
             <label for="lname">Enter your last name :</label>
             <div class="input-section">
             <i class="fas fa-user icon"></i>
-            <input class="input-ele" type="text" name="lname" placeholder="Enter Last Name"></input>
+            <input id="lname" class="input-ele" type="text" name="lname" placeholder="Enter Last Name" required></input>
             </div>
            
             <label for="email">Email :</label>
             <div class="input-section">
             <i class="fas fa-envelope icon"></i>
-            <input class="input-ele" type="email" name="email" placeholder="Enter email ID"></input>
+            <input class="input-ele" type="email" name="email" placeholder="Enter email ID" required></input>
            </div>
 
            <label for="dob">Date of Birth :</label> 
@@ -53,23 +54,23 @@
             <label for="password">Password:</label>
             <div class="input-section">
             <i class="fas fa-key icon"></i>
-            <input class="input-ele" type="password" name="password" placeholder="enter password"></input>
+            <input class="input-ele" type="password" name="password" placeholder="enter password" required></input>
             </div>
            
             <div class="input-section">
-            <button type="button" class="btn">Sign In</button>
+            <button type="submit" class="btn">Sign In</button>
             </div>
         </form>
     </div>
 
         
-
+    <div class="col-md-6">
         <div class="social-section">
             <div class="margin-section">
                 <div class="vl"></div>
            </div>
               
-           <div class="social-section">
+           <div class="social-sections">
                 <label>SignIn using:</label> 
                 <br>
         <div class="input-section">
@@ -83,14 +84,29 @@
         </div>
         </div>
         </div>
-
+    </div>
+    </div>
     </div>
 
     <footer>
       <br>
     </footer>
-     
+
     
+
+    <script >
+        function validate(){
+            var letters = /^[A-Za-z]+$/;
+            var fname= document.getElementById("fname").value ;
+            var lname =  document.getElementById("lname").value;
+
+            if(fname.match(letters) && lname.match(letters)){
+                alert("Hello "+fname+" "+lname);
+            }else{
+                alert("Enter valid name");
+            }
+        }
+    </script>
     
 </body>
 </html>
