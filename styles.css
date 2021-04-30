@@ -44,6 +44,13 @@ h3{
   }
 }
 
+@media screen and (max-width:540px) {
+  body{
+    background: url("./mars6.jpg")no-repeat center center;
+  }
+}
+
+
 label{
 color: rgba(44, 44, 43, 0.698);
 font-family: 'Freckle Face', cursive;
