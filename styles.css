@@ -33,6 +33,7 @@ h3{
 @media screen and (max-width:720px) {
   body{
     background-image: url('./mars3.jpg');
+    
   }
   .social-sections{
     box-shadow: 10px 10px 30px #1d1c1c, 
