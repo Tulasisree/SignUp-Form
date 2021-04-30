@@ -32,7 +32,8 @@ h3{
 
 @media screen and (max-width:720px) {
   body{
-    background-image: url('./mars3.jpg');
+    background-image:none;
+    background-color:bisque;
     
   }
   .social-sections{
