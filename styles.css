@@ -22,29 +22,32 @@ h3{
   /*background-image: url("./mars3.jpg");*/
   box-shadow: 10px 10px 50px #1d1c1c, 
           -10px -10px 60px #464444;
-  height: 600px;
+ /* height: 600px;*/
   width :700px;
-  margin-top: 20px;
-  margin-right: 150px;
+ /* margin-top: 20px;
+  margin-right: 150px;*/
   padding: 20px;
   display:flex;
 }
 
 @media screen and (max-width:720px) {
   body{
-    background-image:none;
-    background-color:bisque;
-    
+    background-image: none;
+    background-color: bisque;
   }
-  .container{
-    width:350px;
-  }
+ /*.container{
+   width: 400px;
+ }*/
+ .container{
+   display: block;
+ }
   .image{
-    width:350px;
-    height:50px;
+    width: 400px;
+    height: 50px;
   }
+
   .input-ele{
-    width:300px;
+    width: 330px;
   }
   .social-sections{
     box-shadow: 10px 10px 30px #1d1c1c, 
@@ -58,7 +61,6 @@ h3{
     display: none;
   }
 }
-
 
 label{
 color: rgba(44, 44, 43, 0.698);
@@ -159,9 +161,5 @@ text-align: center;
   color: gray;
 }
 */
-
-
-
-
 
 
