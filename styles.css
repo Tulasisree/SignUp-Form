@@ -31,14 +31,15 @@ h3{
 }
 
 @media screen and (max-width:720px) {
-  body{
+ /* body{
     background-image: none;
     background-color: bisque;
-  }
+  }*/
  /*.container{
    width: 400px;
  }*/
  .container{
+    background-image: url("./mars3.jpg");
    display: block;
    width:400px;
  }
@@ -51,14 +52,14 @@ h3{
   .input-ele{
     width: 300px;
   }
-  .social-sections{
+  /*.social-sections{
     box-shadow: 10px 10px 30px #1d1c1c, 
     -10px -10px 30px #464444;
     padding: 15px;
     height: 200px;
     width: 300px;
     
-  } 
+  } */
   .margin-section{
     display: none;
   }
